@@ -1,0 +1,630 @@
+{
+  "schema_version": "4.0",
+  "status": "completed",
+  "task": "railway_constraint_layer",
+  "evaluation_mode": "dem_smoke_test",
+  "tested_dem": {
+    "path": "D:\\桌面\\railway_route_project\\data\\DEM_12.5-yuan\\c12_Clip.tif",
+    "crs": "EPSG:32649",
+    "width": 7356,
+    "height": 11957,
+    "resolution_m": [
+      12.662733588895787,
+      12.51938674509527
+    ],
+    "nodata": null,
+    "note": "NoData未声明不等于地理范围内所有区域都有可靠高程"
+  },
+  "route": {
+    "points": [
+      {
+        "x": 504853.80700995063,
+        "y": 3205282.788381899,
+        "z": 172.0
+      },
+      {
+        "x": 505353.80700995063,
+        "y": 3205282.788381899,
+        "z": 168.4
+      },
+      {
+        "x": 505853.80700995063,
+        "y": 3205282.788381899,
+        "z": 164.8
+      },
+      {
+        "x": 506353.80700995063,
+        "y": 3205282.788381899,
+        "z": 161.2
+      },
+      {
+        "x": 506853.80700995063,
+        "y": 3205282.788381899,
+        "z": 157.6
+      },
+      {
+        "x": 507353.80700995063,
+        "y": 3205282.788381899,
+        "z": 154.0
+      },
+      {
+        "x": 507853.80700995063,
+        "y": 3205282.788381899,
+        "z": 150.4
+      },
+      {
+        "x": 508353.80700995063,
+        "y": 3205282.788381899,
+        "z": 146.8
+      },
+      {
+        "x": 508853.80700995063,
+        "y": 3205282.788381899,
+        "z": 143.2
+      },
+      {
+        "x": 509353.80700995063,
+        "y": 3205282.788381899,
+        "z": 139.6
+      },
+      {
+        "x": 509853.80700995063,
+        "y": 3205282.788381899,
+        "z": 136.0
+      }
+    ],
+    "node_count": 11,
+    "segment_count": 10,
+    "length_m": 5000.0,
+    "extension_factor": 1.0
+  },
+  "engineering_inventory": {
+    "status": "unknown",
+    "structures": null
+  },
+  "simulate": {
+    "passed": true,
+    "dem_query_count": 0,
+    "segments": [
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 162.0,
+          "upper_m": 182.0
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 158.4,
+          "upper_m": 178.4
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 154.8,
+          "upper_m": 174.8
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 151.2,
+          "upper_m": 171.2
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 147.6,
+          "upper_m": 167.6
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 144.0,
+          "upper_m": 164.0
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 140.4,
+          "upper_m": 160.4
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 136.8,
+          "upper_m": 156.8
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 133.2,
+          "upper_m": 148.0
+        }
+      },
+      {
+        "passed": true,
+        "failed_stage": null,
+        "planar_residual_m": 1000.0,
+        "profile": {
+          "lower_m": 136.0,
+          "upper_m": 136.0
+        }
+      }
+    ]
+  },
+  "expand": {
+    "checked_constraints_passed": true,
+    "complete": false,
+    "feasible": null,
+    "violations": [],
+    "pending_checks": [
+      "桥隧情况未知；缺少完整清单，连续隧道长度未验证",
+      "未接入禁区、交叉净空、地质和环境空间数据"
+    ],
+    "segments": [
+      {
+        "index": 0,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 162.0,
+            "upper_m": 182.0
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 160.0,
+          "terrain_max_m": 232.0,
+          "difference_min_m": -62.34,
+          "difference_max_m": 11.639999999999986,
+          "positive_difference_area_m2": 880.2015250544658,
+          "negative_difference_area_m2": 16642.701525054465,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 1,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 158.4,
+            "upper_m": 178.4
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 217.0,
+          "terrain_max_m": 420.0,
+          "difference_min_m": -255.2,
+          "difference_max_m": -48.599999999999994,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 70562.5,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 2,
+        "length_m": 500.0,
+        "grade_permille": -7.2000000000000455,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 154.8,
+            "upper_m": 174.8
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 413.0,
+          "terrain_max_m": 481.0,
+          "difference_min_m": -317.1,
+          "difference_max_m": -251.08,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 140075.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 3,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 151.2,
+            "upper_m": 171.2
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 434.0,
+          "terrain_max_m": 584.0,
+          "difference_min_m": -426.4,
+          "difference_max_m": -272.8,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 173050.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 4,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 147.6,
+            "upper_m": 167.6
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 449.0,
+          "terrain_max_m": 595.0,
+          "difference_min_m": -437.94,
+          "difference_max_m": -295.0,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 189462.5,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 5,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 144.0,
+            "upper_m": 164.0
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 305.0,
+          "terrain_max_m": 449.0,
+          "difference_min_m": -295.0,
+          "difference_max_m": -153.7,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 104275.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 6,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 140.4,
+            "upper_m": 160.4
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 345.0,
+          "terrain_max_m": 467.0,
+          "difference_min_m": -318.22,
+          "difference_max_m": -194.6,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 127525.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 7,
+        "length_m": 500.0,
+        "grade_permille": -7.2000000000000455,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 136.8,
+            "upper_m": 156.8
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 231.0,
+          "terrain_max_m": 394.0,
+          "difference_min_m": -248.1,
+          "difference_max_m": -87.80000000000001,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 95675.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 8,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 133.2,
+            "upper_m": 148.0
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 186.0,
+          "terrain_max_m": 231.0,
+          "difference_min_m": -87.80000000000001,
+          "difference_max_m": -44.60000000000002,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 27475.0,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      },
+      {
+        "index": 9,
+        "length_m": 500.0,
+        "grade_permille": -7.1999999999999895,
+        "coarse": {
+          "passed": true,
+          "failed_stage": null,
+          "planar_residual_m": 1000.0,
+          "profile": {
+            "lower_m": 136.0,
+            "upper_m": 136.0
+          }
+        },
+        "dem": {
+          "passed": true,
+          "sample_count": 21,
+          "terrain_min_m": 136.0,
+          "terrain_max_m": 218.0,
+          "difference_min_m": -79.48000000000002,
+          "difference_max_m": 0.0,
+          "positive_difference_area_m2": 0.0,
+          "negative_difference_area_m2": 25487.5,
+          "fill_volume_m3": null,
+          "cut_volume_m3": null,
+          "note": "缺少横断面和工程分类；高差不能直接确定桥隧或土方体积"
+        }
+      }
+    ],
+    "route_structure": {
+      "violations": [],
+      "pending_checks": [
+        "桥隧情况未知；缺少完整清单，连续隧道长度未验证",
+        "未接入禁区、交叉净空、地质和环境空间数据"
+      ],
+      "grade_sections": [
+        {
+          "grade_permille": -7.1999999999999895,
+          "length_m": 5000.0
+        }
+      ],
+      "turns": [
+        {
+          "node_index": 1,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 2,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 3,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 4,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 5,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 6,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 7,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 8,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        },
+        {
+          "node_index": 9,
+          "angle_rad": 0.0,
+          "is_straight": true,
+          "radius_m": null
+        }
+      ]
+    }
+  },
+  "cost": {
+    "available": false,
+    "pure_cost_yuan": null,
+    "known_components_sum_yuan": 26000000.0,
+    "components_yuan": {
+      "track": 26000000.0,
+      "land": null,
+      "fill": null,
+      "cut": null,
+      "bridge": null,
+      "tunnel": null,
+      "portal": null,
+      "abutment": null,
+      "pier": null
+    },
+    "structures_status": "unknown",
+    "structure_inventory": null,
+    "structure_cost_details": null,
+    "missing_inputs": [
+      "land:缺少工程量",
+      "fill:缺少工程量",
+      "cut:缺少工程量",
+      "bridge:缺少完整单体工程清单",
+      "tunnel:缺少完整单体工程清单",
+      "portal:缺少工程量",
+      "abutment:缺少工程量",
+      "pier:缺少工程量"
+    ],
+    "warning": "已知费用分项之和不是总造价；当前未复现论文表3"
+  },
+  "soft_constraints": {
+    "available": false,
+    "soft_penalty_yuan": null,
+    "items": {
+      "bridge_height": {
+        "status": "disabled_no_double_counting"
+      },
+      "tunnel_length": {
+        "status": "disabled_no_double_counting"
+      },
+      "route_extension": {
+        "status": "disabled_no_double_counting"
+      },
+      "grade": {
+        "status": "disabled_pending_price_basis",
+        "ideal_grade_permille": 12.0,
+        "max_abs_grade_permille": 7.1999999999999895,
+        "max_excess_permille": 0.0,
+        "excess_integral_permille_m": 0.0,
+        "penalty_yuan": 0.0,
+        "note": "阈值已确定；货币惩罚按9.22关闭，不表示已经核定能耗成本"
+      },
+      "environment": {
+        "status": "missing_input",
+        "penalty_yuan": null
+      }
+    },
+    "missing_inputs": [
+      "environment_length_m",
+      "environment.base_price_yuan_per_m"
+    ]
+  },
+  "scoring": {
+    "pure_cost_yuan": null,
+    "soft_penalty_yuan": null,
+    "search_score_yuan": null,
+    "engineering_feasibility_certified": false
+  },
+  "cnn_prior": {
+    "available": false,
+    "value": null,
+    "reason": "尚未接入实际CNN查询器和地形工程分类器"
+  },
+  "dem_statistics": {
+    "min_m": -12.0,
+    "max_m": 1397.0,
+    "valid_pixel_count": 87955692
+  },
+  "cache": {
+    "sample_cache_size": 201,
+    "cache_hits": 11,
+    "cache_misses": 201,
+    "expansion_cache_size": 1,
+    "expansion_cache_hits": 0
+  },
+  "feature_status": {
+    "fss": "implemented",
+    "dem_sampling": "implemented",
+    "grade_sections": "implemented",
+    "formal_horizontal_curves": "pending_alignment_elements",
+    "formal_vertical_curves": "pending_alignment_elements",
+    "cnn_prior": "callable_interface_only",
+    "uct": "callable_interface_only",
+    "mcts": "not_implemented",
+    "llm_controller": "not_implemented",
+    "bridge_height_100m_hard_rejection": false,
+    "dead_end_huge_penalty": false
+  }
+}
